@@ -20,15 +20,3 @@ class Calc(var a: Int, var b: Int) {
     fun add() = a * b
 }
 
-class Animal(
-    var breed: String,
-    var sound : String,
-    var movement: String,
-    var origin :String,
-    var food :String,
-){
-    fun showAnimal(){
-        println(" is found in $origin")
-        println("")
-    }
-}
